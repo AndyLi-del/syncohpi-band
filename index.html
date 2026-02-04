@@ -14,7 +14,7 @@
   <!-- ===== Header ===== -->
   <header class="site-header">
     <nav class="nav container">
-      <a href="index.html" class="nav-logo">Synco<span>phi</span></a>
+      <a href="index.html" class="nav-logo">Synco<span class="logo-cyan">ph</span><span class="logo-red">i</span></a>
       <button class="nav-toggle" aria-label="Toggle navigation">
         <span></span><span></span><span></span>
       </button>
@@ -28,12 +28,15 @@
 
   <!-- ===== Hero ===== -->
   <section class="hero">
-    <div class="container">
-      <h1><span>Syncophi</span></h1>
+    <div class="container hero-content">
+      <h1><span class="text-cyan">Synco</span><span class="text-red">phi</span></h1>
       <p class="hero-tagline">
         <!-- TODO: Write a short tagline about the band -->
       </p>
-      <a href="contact.html" class="hero-cta">Get in Touch</a>
+      <div class="hero-buttons">
+        <a href="members.html" class="btn btn--red">Meet the Band</a>
+        <a href="contact.html" class="btn btn--outline">Get in Touch</a>
+      </div>
     </div>
   </section>
 
@@ -41,12 +44,17 @@
   <section class="section" id="about">
     <div class="container">
       <h2 class="section-title">About the Band</h2>
+      <span class="accent-bar accent-bar--red"></span>
+      <p class="section-subtitle">
+        <!-- TODO: One-line summary about the band -->
+      </p>
       <div class="about-grid">
         <div class="about-image">
           <!-- Replace with a band photo: <img src="images/band.jpg" alt="Syncophi band photo" /> -->
           Band photo
         </div>
         <div class="about-text">
+          <h3><!-- TODO: About heading, e.g. "Our Story" --></h3>
           <p>
             <!-- TODO: Write about the band's story / origin -->
           </p>
@@ -59,9 +67,13 @@
   </section>
 
   <!-- ===== Our Style ===== -->
-  <section class="section" style="background: var(--color-surface);">
+  <section class="section style-section">
     <div class="container">
       <h2 class="section-title">Our Style</h2>
+      <span class="accent-bar accent-bar--cyan"></span>
+      <p class="section-subtitle">
+        <!-- TODO: Short intro about the band's musical style -->
+      </p>
       <div class="style-cards">
 
         <div class="style-card">
@@ -89,6 +101,7 @@
   <!-- ===== Footer ===== -->
   <footer class="site-footer">
     <div class="container">
+      <div class="footer-bar"></div>
       <p>&copy; 2026 Syncophi. All rights reserved.</p>
     </div>
   </footer>
